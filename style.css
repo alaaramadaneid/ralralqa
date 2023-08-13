@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+body {
+  background-image: url(/imags/Inspirational\ Gradient\ Desktop\ Background.png);
+  background-repeat: no-repeat;
+}
+/*start heder*/
+header {
+  width: 100%;
+  height: 100px;
+}
+header h1 {
+  font-size: 40px;
+  line-height: 100px;
+  text-align: center;
+  font-style: italic;
+  color: #291213;
+}
+span {
+  color: gold;
+}
+/*end hedear*/
+/*start navbar*/
+nav {
+  width: 100%;
+  height: 100px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  margin-top: 40px;
+}
+nav ul li a {
+  color: #291213;
+  text-transform: uppercase;
+  border: solid black 2px;
+  padding: 4px;
+  border-radius: 3px;
+}
+.first:hover {
+  background: #beb7b88e;
+  transform: 0.5s;
+  border: gold solid 2px;
+}
+/*end nav bar */
+/* start section */
+main {
+  display: grid;
+
+  justify-content: space-between;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px;
+  text-align: center;
+  gap: 10px;
+}
+section {
+  border: solid black 2px;
+  padding: 20px;
+  border-radius: 3px;
+}
+p {
+  margin: 30px;
+}
+
+.brésil {
+  order: 3;
+}
+.colombia {
+  order: 1;
+}
+.france {
+  order: 2;
+}
+section h3 {
+  text-transform: uppercase;
+}
+section:hover {
+  transform: 0.5s;
+  border: gold solid 2px;
+  cursor: pointer;
+}
+main section h3 a {
+  color: #291213;
+}
+
+/* end section */
+/*start footer*/
+footer {
+  margin-bottom: 0px;
+  width: 100%;
+  height: 80px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  margin: 5px;
+  line-height: 80px;
+}
+footer ul li a {
+  font-size: 30px;
+  margin: 10px;
+  color: black;
+}
+div {
+  width: 100%;
+  height: 40vh;
+}
+.youtube:active {
+  color: red;
+  font-size: 35px;
+}
+.whatsapp:active {
+  color: rgb(5, 207, 5);
+  font-size: 35px;
+}
+.facebook:active {
+  color: blue;
+  font-size: 35px;
+}
+section:hover {
+  opacity: 0.7;
+}
+.contener {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.france:hover {
+  transition: 2s;
+}
+.colombia:hover {
+  transition: 3s;
+}
